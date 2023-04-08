@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fran';
+    src: url("font/SFUIText-Medium.otf");
+}
+@font-face {
+    font-family: frran;
+    src: url("font/SFUIText-Regular.otf");
+}
+body {
+    background-color: #1F2A44;
+}
+h1 {
+    color: white;
+    font-family: 'fran';
+}
+p{
+color: white;
+font-family: 'fran';
+}
+header#cabecalho {
+    display: flex;
+    position: relative;
+    background-color: #D4AF37;
+    height: 100px;
+    flex-direction: column;
+    top:-15px;
+    left:-12px;
+    width: 1370px;
+    border-radius: 12px;
+}
+header#cabecalho h1 {
+    position: absolute;
+    font-family: 'fran';
+    color:black ;
+    margin: 2px;
+    top: 20px;
+    margin-left: 10px;
+}
+header#cabecalho p {
+    position: absolute;
+    font-family: 'fran';
+    color:white;
+    padding: 2px 8px 10px 8px;
+    top: 55px;
+    margin-left: 10px;
+
+
+}
+form#login h1 {
+    font-family: 'fran';
+}
+
+input {
+    border-radius: 8px;
+border-bottom: 2px solid black;
+}
+select {
+    border-radius: 8px;
+}
+section#clientelo {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 30px;
+    height: 45px;
+    cursor: pointer;
+    
+
+}
+form#login {
+    position: absolute;
+}

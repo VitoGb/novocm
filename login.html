@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css"> 
+</head>
+<body>
+    <header id="cabecalho">
+        <h1> Seja parte da nossa história</h1>
+        <p> Ao se cadastra você ganha descontos em qualquer passagem da sua escolha</p>
+<script id="nome">
+    var nome = window.prompt('Qual teu nome mané?')
+    window.alert('Seja bem vindo, '+ nome +' seu gostoso(a)')
+    var n1 = Number(window.prompt('Para proseguir precisamos saber se você não é um robô, digite um número: '))
+    var n2 = Number(window.prompt('digite um segudo número: '))
+    var soma = n1 + n2
+    window.alert('A soma dos dois números é de: '+ soma +' , muitos burro filho kkjjj' )
+
+</script>    </header>
+    <section id="clientelo">
+    <form id="login">
+        <fieldset id="cadastro"><legend> <h1> <label for="nome">Informações para cadastro</label></h1></legend>
+        <label for="nome"><p>Name:</p></label>
+        <input type="text" id="nome" placeholder="somente o primeiro nome">
+        <label for="email"><p>E-mail:</p></label>
+        <input id="email" type="email" placeholder="ex:abagnole@gmail.com">
+        <label for="aniversario" "><p>Data de nascimento:</p></label>
+        <input id="aniversario" placeholder="18/01/2005" type="date">
+        <label for="mora"><p>Estado onde mora atualmente:</p></label>
+        <select>
+            <optgroup>
+            <option><p>Alagoas</p></option>
+                <option><p>Amap</p></option>
+                    <option><p>AP</p></option>
+                        <option><p>Amazonas</p></option>>
+                            <option><p>Bahia</p></option>
+                                <option><p>Ceará</p></option>
+                                    <option><p>Espírito Santo</p></option>
+                                        <option><p>Goiás</p></option>
+                                            <option><p>Maranhão</p></option>
+                                                <option><p>Mato Grosso</p></option>
+                                                    <option><p>Mato Grosso do Sul</p></option>
+                                                        <option><p>Minas Gerais</p></option>
+                                                            <option><p>Pará</p></option>
+                                                                <option><p>Paraíba</p></option>
+                                                                    <option><p>Paraná</p></option>
+                                                                        <option><p>Pernambuco</p></option>
+                                                                            <option><p>Piauí</p></option>
+                                                                                <option><p>Rio de Janeiro</p></option>
+                                                                                    <option><p>Rio Grande do Norte</p></option>
+                                                                                        <option><p>Rio Grande do Sul</p></option>
+                                                                                            <option><p>Rondônia</p></option>
+                                                                                                <option><p> Roraima</p></option>
+                                                                                                    <option><p>Santa Catarina</p></option>
+                                                                                                        <option><p>São Paulo</p></option>
+                                                                                                            <option><p>Sergipe</p></option>
+                                                                                                                <option><p>Tocantins</p></option>
+                                                                                                                    <option><p>Distrito Federal</p></option>
+        </optgroup>
+        </select>
+        <label for="senha"><p>Senha:</p></label>
+        <input id="senha" type="password" placeholder="vtin123"
+         </fieldset>
+        </form>
+    </section>    
+</body>
+</html>

@@ -1,0 +1,311 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fran';
+    src: url("font/SFUIText-Regular.otf");
+}
+@font-face {
+    font-family: 'ffran';
+    src: url("font/SFUIText-Medium.otf");
+}
+* {
+  box-sizing: border-box;
+}
+li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+}
+li a {
+    text-decoration: none;
+}
+
+body{
+    background-color: #1F2A44;
+
+}
+h1, h2{
+    font-family: 'ffran';
+}
+ul li {
+    font-family: 'fran';
+}
+p{
+    color: white;
+    font-family: 'fran';
+    padding: 2px 8px 10px 8px;
+}
+header {
+    border-bottom: 2px solid black;
+    z-index: 1;
+    position: fixed;
+    border-radius: 12px;
+    width: 1369px;
+    top: -10px;
+    left:-3px;
+    
+    display: inline-flex;
+    background-color: #D4AF37;
+    margin: 0px #D4AF37 solid;
+    padding: 10px 10px 7px 10px;
+
+}
+header p {
+    position: absolute;
+    top: 55px;
+    left: 2px;
+}
+ul li {
+    justify-content: center;
+    place-items: center;
+    position: relative;
+    display: inline-flex;
+    width: 140px;
+    right:-500px;
+    border-radius: 12px;
+    border:2px solid white;
+    transition: 0.750s;
+}
+ul li:hover {
+    background-color: white;
+}
+li a {
+    color: white;
+}
+li a:hover {
+    color: #D4AF37;
+}
+header button{
+    position: absolute;
+    text-decoration: none;
+    right:2px;
+    top:17px;
+    margin: 9px;
+}
+button#login{
+    color: white;
+    background-color: #D4AF37;
+    font-family: 'fran';
+    border: none;
+    text-transform: uppercase;
+    transition: 0750s;
+}
+button#login:hover {
+    transform-origin: center;
+    border-bottom: 2px solid white;
+}
+button#login a {
+    text-decoration: none;
+    color: white;
+}
+aside#grana {
+    display: inline-flex;
+    position: relative;
+    height: 40px;
+    width: 185px;
+    right: -1110px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 12px;
+}
+aside input {
+    border: 12px;
+    justify-content: center;
+    position: absolute;
+}
+section#one{
+    justify-content: space-between;
+    width: 590px;
+    height: 85px;
+    display: flex;
+    position: relative;
+    top: 78px;
+    right: -10px;
+    left:-14px;
+    background-color: white;
+    border-radius: 12px;
+    margin-left:8px ;
+    box-shadow: 2px 2px 10px 2px black;
+}
+section#one h2 {
+    position: absolute;
+    top: 35px;
+    font-size: 16px;
+
+}
+figure#aviao img {
+    width: 55px;
+}
+
+figure#imagem img {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 2px 2px 9px 2px black;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    border-radius: 11px;
+}
+
+img#gol {
+    z-index: 1;
+    right: -14px;
+    position: relative;
+    top:-6px;
+
+}
+img#planet {
+    top: -10px;
+    position: relative;
+
+}
+section#voss{
+    position: relative;
+    border: 3px solid black ;
+    top:130px;
+    left:-9px;
+    border-radius: 11px;
+    width: 1350px;
+    background-color: #ffffff;
+    height: 40px;
+    box-shadow: 2px 2px 6px 2px;
+}
+div#pais {
+    position: absolute;
+    top: 300px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+section#voss h1 {
+    position: relative;
+    text-align: center;
+    color:black;
+    top:-17px;
+
+}
+section#sanfracisco h1{
+    text-align: center;
+    margin: 9px;
+    border: 3px solid #F1ECC3;
+    border-radius: 15px;
+    background-color:#F1ECC3 ;
+}
+section#sanfracisco p{
+    text-align: justify;
+    margin: 9px;
+    color: #1F2A44;
+    font-family: 'fran';
+    transition-duration: 0.750s;
+}
+section#sanfracisco:hover p{
+    color:white;
+
+}
+section#sanfracisco {
+    background-color: white;
+    padding-top: -10px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid;
+    margin: 20px;
+    width: 309px;
+    height: 280px;
+    border-radius:12px;
+    transition-duration: 0.750s;
+}
+section#sanfracisco:hover {
+    background-color:rgb(0, 174, 255);
+    box-shadow:  0 1px rgb(0, 174, 255),
+    0 0 15px rgb(0, 174, 255),
+    0 0 20px rgb(0, 174, 255),
+    0 0 50px rgb(0, 174, 255);
+}
+section#mexico h1 {
+    text-align: center;
+    margin: 9px;
+    border: 3px solid #F1ECC3;
+    border-radius: 15px;
+    background-color:#F1ECC3 ;
+}
+section#mexico p {
+    text-align: justify;
+    margin: 9px;
+    color: #1F2A44;
+    transition: 0.750s;
+}
+section#mexico:hover p {
+    color:white;
+
+}
+section#mexico {
+    background-color: white;
+    padding-top: -10px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid;
+    width: 309px;
+    height: 280px;
+    margin: 20px;
+    border-radius:12px;
+    transition-duration: 0.750s;
+    padding-right: 14px;
+}
+section#mexico:hover {
+    background-color:rgb(0, 174, 255);
+    box-shadow:  0 1px rgb(0, 174, 255),
+    0 0 15px rgb(0, 174, 255),
+    0 0 20px rgb(0, 174, 255),
+    0 0 50px rgb(0, 174, 255);
+}
+section#mexico img {
+    position: relative;
+    right: 9px;
+}
+
+section#sanandres h1 {
+    text-align: center;
+    margin: 9px;
+    border: 3px solid #F1ECC3;
+    border-radius: 15px;
+    background-color:#F1ECC3 ;
+}
+section#sanandres p{
+    color: #1F2A44;
+    transition: 0.750s;
+}
+section#sanandres:hover p{
+    color:white;
+
+}
+section#sanandres {
+    background-color: white;
+    padding-top: -10px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid;
+    width: 309px;
+    height: 280px;
+    margin: 20px;
+    border-radius:12px;
+    transition-duration: 0.750s;
+}
+section#sanandres:hover {
+    background-color:rgb(0, 174, 255);
+    box-shadow:  0 1px rgb(0, 174, 255),
+    0 0 15px rgb(0, 174, 255),
+    0 0 20px rgb(0, 174, 255),
+    0 0 50px rgb(0, 174, 255);
+}
+footer {
+    display: block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    bottom: -2px;
+}
